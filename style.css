@@ -1,0 +1,80 @@
+@import url("main.css") only screen and (min-width:200px) and (max-width:480px);
+
+@media (max-width: 767px){
+    body{
+        background-color: #d2c5dd;
+        overflow-x: hidden;
+    }
+    .search{
+        height: 25px;
+        width: 350px;
+        border: 1px solid #8f00cf/*#1b5ac2*/;
+        background: #ffffff;
+        position: relative;
+        top: 20px;
+        left: -4px;
+    }
+    .search_{
+        font-size: 16px;
+        width: 255px;
+        padding: 3px;
+        border: 0px;
+        outline: none;
+        float: left;
+    }
+    .btn{
+        width: 50px;
+        height: 100%;
+        border: 0px;
+        background: #8f00cf;
+        outline: none;
+        float: right;
+        color: #ffffff;
+    }
+    .title{
+        color: #6f00cf;
+        text-align: center;
+    }
+    .dwnbtn{
+        position: relative;
+        top: 70px;
+    }
+}
+
+@media (min-width: 1200px) {
+    body{
+        background-color: #d2c5dd;
+        overflow-x: hidden;
+    }
+    .search{
+        height: 40px;
+        width: 400px;
+        border: 1px solid #8f00cf/*#1b5ac2*/;
+        background: #ffffff;
+        position: relative;
+        top: 50px;
+        left: 930px;
+    }
+    .search_{
+        font-size: 16px;
+        width: 325px;
+        padding: 10px;
+        border: 0px;
+        outline: none;
+        float: left;
+    }
+    .btn{
+        width: 50px;
+        height: 100%;
+        border: 0px;
+        background: #8f00cf;
+        outline: none;
+        float: right;
+        color: #ffffff;
+        font-size: 14px;
+    }
+    .title{
+        color: #6f00cf;
+        text-align: center;
+    }
+}
